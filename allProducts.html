@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - Parshika & Ritika Mobile Electronics Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-mobile-alt"></i>
+                <span data-en="P&R Mobile" data-np="पी एन्ड आर मोबाइल">P&R Mobile</span>
+            </div>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link" data-en="Home" data-np="होम">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#about" class="nav-link" data-en="About us" data-np="हाम्रो बारेमा">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#products" class="nav-link active" data-en="Products" data-np="उत्पादनहरू">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#dealers" class="nav-link" data-en="Dealers" data-np="डिलरहरू">Dealers</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link" data-en="Contact us" data-np="हामीलाई सम्पर्क गर्नुहोस्">Contact</a>
+                </li>
+            </ul>
+
+            <div class="nav-controls">
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="lang-toggle" id="lang-toggle">
+                    <span class="lang-text">नेपाली</span>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- All Products Section -->
+    <section id="products" class="products" style="padding-top: 120px;">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="All Products" data-np="सबै उत्पादनहरू">All Products</h2>
+                <p class="section-subtitle" data-en="Discover our complete mobile technology collection" data-np="हाम्रो पूर्ण मोबाइल प्रविधि संग्रह पत्ता लगाउनुहोस्">Discover our complete mobile technology collection</p>
+            </div>
+            
+            <!-- Product Categories -->
+            <div class="product-categories">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 data-en="Smartphones" data-np="स्मार्टफोनहरू">Smartphones</h3>
+                    <p data-en="Latest flagship and budget-friendly smartphones from top brands" data-np="शीर्ष ब्रान्डहरूका नवीनतम फ्ल्यागशिप र बजेट-मैत्री स्मार्टफोनहरू">Latest flagship and budget-friendly smartphones from top brands</p>
+                    <div class="category-brands">
+                        <span>Apple</span>
+                        <span>Samsung</span>
+                        <span>OnePlus</span>
+                        <span>Xiaomi</span>
+                        <span>Honor</span>
+                    </div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-headphones"></i>
+                    </div>
+                    <h3 data-en="Accessories" data-np="एक्सेसरीहरू">Accessories</h3>
+                    <p data-en="Premium cases, chargers, earphones, and other mobile accessories" data-np="प्रिमियम केसहरू, चार्जरहरू, इयरफोनहरू र अन्य मोबाइल एक्सेसरीहरू">Premium cases, chargers, earphones, and other mobile accessories</p>
+                    <div class="category-brands">
+                        <span>Cases</span>
+                        <span>Chargers</span>
+                        <span>Earphones</span>
+                        <span>Power Banks</span>
+                        <span>Airpods</span>
+                    </div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-tablet-alt"></i>
+                    </div>
+                    <h3 data-en="Tablets" data-np="ट्याब्लेटहरू">Tablets</h3>
+                    <p data-en="High-performance tablets for work, entertainment, and creativity" data-np="काम, मनोरञ्जन र रचनात्मकताका लागि उच्च प्रदर्शन ट्याब्लेटहरू">High-performance tablets for work, entertainment, and creativity</p>
+                    <div class="category-brands">
+                        <span>iPad</span>
+                        <span>Galaxy Tab</span>
+                        <span>Mi Pad</span>
+                        <span>OnePlus Pad</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Complete Product Showcase -->
+            <div class="section-header" style="margin-top: 4rem;">
+                <h3 class="section-title" data-en="Featured Products" data-np="विशेष उत्पादनहरू">Featured Products</h3>
+            </div>
+            
+            <div class="product-showcase">
+                <div class="showcase-item">
+                    <div class="product-image">
+                        <img src="images/iphone13promax.jpg" alt="iPhone 13 Pro Max">
+                        <div class="product-badge">New</div>
+                    </div>
+                    <div class="product-info">
+                        <h4>iPhone 13 Pro Max</h4>
+                        <p data-en="Latest flagship with titanium design" data-np="टाइटेनियम डिजाइनको साथ नवीनतम फ्ल्यागशिप">Latest flagship with titanium design</p>
+                    </div>
+                </div>
+                
+                <div class="showcase-item">
+                    <div class="product-image">
+                        <img src="images/galaxys24ultra.jpg" alt="Galaxy S24 Ultra">
+                        <div class="product-badge">Popular</div>
+                    </div>
+                    <div class="product-info">
+                        <h4>Galaxy S24 Ultra</h4>
+                        <p data-en="AI-powered photography beast" data-np="एआई-संचालित फोटोग्राफी बिस्ट">AI-powered photography beast</p>
+                    </div>
+                </div>
+
+                <div class="showcase-item">
+                    <div class="product-image">
+                        <img src="images/honorx9.jpg" alt="Honor X9">
+                        <div class="product-badge">New</div>
+                    </div>
+                    <div class="product-info">
+                        <h4>Honor X9</h4>
+                        <p data-en="Reliable performance and sleek design" data-np="भरपर्दो प्रदर्शन र आकर्षक डिजाइन">Reliable performance and sleek design</p>
+                    </div>
+                </div>
+
+                <div class="showcase-item">
+                    <div class="product-image">
+                        <img src="images/tecno10.jpg" alt="Tecno Camon 10">
+                        <div class="product-badge">Value</div>
+                    </div>
+                    <div class="product-info">
+                        <h4>Tecno Camon 10</h4>
+                        <p data-en="Smart camera and large display" data-np="स्मार्ट क्यामेरा र ठूलो डिस्प्ले">Smart camera and large display</p>
+                    </div>
+                </div>
+
+                <div class="showcase-item">
+                    <div class="product-image">
+                        <img src="images/infinixnote.jpg" alt="Infinix Hot 50i">
+                        <div class="product-badge">Popular</div>
+                    </div>
+                    <div class="product-info">
+                        <h4>Infinix Hot 50i</h4>
+                        <p data-en="Budget-friendly with powerful specs" data-np="शक्तिशाली विशेषताहरू सहित बजेटमैत्री">Budget-friendly with powerful specs</p>
+                    </div>
+                </div>
+
+                <div class="showcase-item">
+                    <div class="product-image">
+                        <img src="images/oneplus12.jpg" alt="OnePlus">
+                        <div class="product-badge">Fast</div>
+                    </div>
+                    <div class="product-info">
+                        <h4>OnePlus</h4>
+                        <p data-en="Never settle for less performance" data-np="कम प्रदर्शनमा कहिल्यै सन्तुष्ट नहुनुहोस्">Never settle for less performance</p>
+                    </div>
+                </div>
+
+                <div class="showcase-item">
+                    <div class="product-image">
+                        <img src="images/xiaomiredmi.jpg" alt="Xiaomi Redmi">
+                        <div class="product-badge">Best Value</div>
+                    </div>
+                    <div class="product-info">
+                        <h4>Xiaomi Redmi Note 13</h4>
+                        <p data-en="Exceptional value with premium features" data-np="प्रिमियम सुविधाहरूसँग असाधारण मूल्य">Exceptional value with premium features</p>
+                    </div>
+                </div>
+
+                <div class="showcase-item">
+                    <div class="product-image">
+                        <img src="images/realme.jpg" alt="Realme">
+                        <div class="product-badge">Gaming</div>
+                    </div>
+                    <div class="product-info">
+                        <h4>Realme GT 6</h4>
+                        <p data-en="Ultimate gaming performance" data-np="अन्तिम गेमिङ प्रदर्शन">Ultimate gaming performance</p>
+                    </div>
+                </div>
+
+                <div class="showcase-item">
+                    <div class="product-image">
+                        <img src="images/vivo.jpg" alt="Vivo">
+                        <div class="product-badge">Camera</div>
+                    </div>
+                    <div class="product-info">
+                        <h4>Vivo V30 Pro</h4>
+                        <p data-en="Professional photography made easy" data-np="व्यावसायिक फोटोग्राफी सजिलो बनाइयो">Professional photography made easy</p>
+                    </div>
+                </div>
+
+                <div class="showcase-item">
+                    <div class="product-image">
+                        <img src="images/oppo.jpg" alt="Oppo">
+                        <div class="product-badge">Selfie</div>
+                    </div>
+                    <div class="product-info">
+                        <h4>Oppo Reno 11</h4>
+                        <p data-en="Perfect selfies every time" data-np="हरेक पटक उत्तम सेल्फी">Perfect selfies every time</p>
+                    </div>
+                </div>
+
+                <div class="showcase-item">
+                    <div class="product-image">
+                        <img src="ipad.jpg" alt="iPad">
+                        <div class="product-badge">Tablet</div>
+                    </div>
+                    <div class="product-info">
+                        <h4>iPad Air</h4>
+                        <p data-en="Powerful tablet for creativity and productivity" data-np="रचनात्मकता र उत्पादकताका लागि शक्तिशाली ट्याब्लेट">Powerful tablet for creativity and productivity</p>
+                    </div>
+                </div>
+
+                <div class="showcase-item">
+                    <div class="product-image">
+                        <img src="airpods.jpg" alt="AirPods">
+                        <div class="product-badge">Audio</div>
+                    </div>
+                    <div class="product-info">
+                        <h4>AirPods Pro</h4>
+                        <p data-en="Premium wireless audio experience" data-np="प्रिमियम वायरलेस अडियो अनुभव">Premium wireless audio experience</p>
+                    </div>
+                </div>
+
+                <div class="showcase-item">
+                    <div class="product-image">
+                        <img src="powerbank.jpg" alt="Power Bank">
+                        <div class="product-badge">Accessory</div>
+                    </div>
+                    <div class="product-info">
+                        <h4>Fast Charging Power Bank</h4>
+                        <p data-en="Never run out of battery again" data-np="फेरि कहिल्यै ब्याट्री सकिने छैन">Never run out of battery again</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Back to Home Button -->
+            <div style="text-align:center; margin-top: 3rem;">
+                <a href="index.html" class="btn btn-secondary">
+                    <i class="fas fa-home"></i>
+                    <span data-en="Back to Home" data-np="घर फर्कनुहोस्">Back to Home</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span data-en="Parshika & Ritika Mobile" data-np="पार्शिका र रितिका मोबाइल">Parshika & Ritika Mobile</span>
+                    </div>
+                    <p data-en="Your trusted mobile technology partner in Nepal" data-np="नेपालमा तपाईंको भरपर्दो मोबाइल प्रविधि साझेदार">Your trusted mobile technology partner in Nepal</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 data-en="Quick Links" data-np="द्रुत लिङ्कहरू">Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html" data-en="Home" data-np="होम">Home</a></li>
+                        <li><a href="index.html#about" data-en="About" data-np="बारेमा">About</a></li>
+                        <li><a href="allProducts.html" data-en="Products" data-np="उत्पादनहरू">Products</a></li>
+                        <li><a href="index.html#contact" data-en="Contact" data-np="सम्पर्क">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 data-en="Services" data-np="सेवाहरू">Services</h3>
+                    <ul>
+                        <li><a href="#" data-en="Mobile Repair" data-np="मोबाइल मर्मत">Mobile Repair</a></li>
+                        <li><a href="#" data-en="Screen Replacement" data-np="स्क्रिन प्रतिस्थापन">Screen Replacement</a></li>
+                        <li><a href="#" data-en="Data Recovery" data-np="डाटा रिकभरी">Data Recovery</a></li>
+                        <li><a href="#" data-en="Warranty Service" data-np="वारेन्टी सेवा">Warranty Service</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 data-en="Contact Info" data-np="सम्पर्क जानकारी">Contact Info</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+977-1-4444444</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@prmobile.com.np</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span data-en="New Road, Kathmandu" data-np="न्यू रोड, काठमाडौं">New Road, Kathmandu</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 <span data-en="Parshika & Ritika Mobile Electronics Store. All rights reserved.  Made with ♥ by Aman Kunwar" data-np="पार्शिका र रितिका मोबाइल इलेक्ट्रोनिक्स स्टोर। सबै अधिकार सुरक्षित।">Parshika & Ritika Mobile Electronics Store. All rights reserved.  Made with ♥ by Aman Kunwar</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
