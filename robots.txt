@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap:
+https://razexclaw.github.io/prashika-and-ritik/sitemap.xml
