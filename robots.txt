@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap:
-https://razexclaw.github.io/prashika-and-ritik/sitemap.xml
+Sitemap: https://razexclaw.github.io/prashika-and-ritik/stiemap.xml.txt
